@@ -75,8 +75,8 @@ public class Counter2i extends Applet {
     }
 
     public static void main(String[] args) {
-        Counter2 applet = new Counter2();
-        Frame aFrame = new Frame("Counter2");
+        Counter2i applet = new Counter2i();
+        Frame aFrame = new Frame("Counter2i");
         aFrame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
